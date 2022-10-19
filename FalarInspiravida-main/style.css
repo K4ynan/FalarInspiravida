@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+
+
+.logo img{
+    position: absolute;
+    left: 200px;
+    top: 15px;
+}
+
+
+.inicio{
+    display: flex;
+    left: 400px;
+    position: absolute;
+    top: 50px;
+    list-style: none;
+    margin: 10px;
+}
+
+.inicio li{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    justify-content: space-around;
+}
+
+button{
+    position: absolute;
+    left: -200px;
+    top: -0px;
+    width: 150px;
+    height: 50px;
+    background: #aa4a7a;
+    border-radius: 28px;
+    border: transparent;
+    color: white;
+}
+
+.dowload{
+    position: absolute;
+    left: 1500px;
+    top: 60px;
+}
+
+.titulo h1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    font-size: 48px;
+}
+
+.titulo p{
+    position: absolute;
+    top: 600px;
+    font-size: 23px;
+    font-weight: 600;
+    left: 300px;
+    background-color: #46abbf;
+}
+
+.pessoas{
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    background-color: #46abbf;
+}
+
+.video iframe{
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    object-fit: contain;
+    width: 750px;
+    height: 500px;
+}
+
+.omovi{
+    position: absolute;
+    top: 1600px;
+    left: 600px;
+}
+
+.omovi h3 {
+    left: 300px;
+    margin-bottom: 32px;
+    font-weight: bold;
+
+}
+
+.omovi p {
+    right: 700px;
+}
+
+.omovi button{
+    top: 50px;
+    left: 500px;
+}
