@@ -1,5 +1,5 @@
 body{
-    background-color: #46abbf;
+    font-family: sans-serif;
     padding: 0;
     margin: 0;
     }
@@ -11,6 +11,7 @@ body{
     left: 200px;
     top: 15px;
 }
+
 
 .inicio{
     display: flex;
@@ -24,6 +25,8 @@ body{
 .inicio li{
     padding: 10px;
     font-size: 15px;
+    color: white;
+    justify-content: space-around;
 }
 
 button{
@@ -57,12 +60,14 @@ button{
     font-size: 23px;
     font-weight: 600;
     left: 300px;
+    background-color: #46abbf;
 }
 
 .pessoas{
     position: absolute;
     left: 800px;
     top: 100px;
+    background-color: #46abbf;
 }
 
 .video iframe{
@@ -72,4 +77,26 @@ button{
     object-fit: contain;
     width: 750px;
     height: 500px;
+}
+
+.omovi{
+    position: absolute;
+    top: 1600px;
+    left: 600px;
+}
+
+.omovi h3 {
+    left: 300px;
+    margin-bottom: 32px;
+    font-weight: bold;
+
+}
+
+.omovi p {
+    right: 700px;
+}
+
+.omovi button{
+    top: 50px;
+    left: 500px;
 }
