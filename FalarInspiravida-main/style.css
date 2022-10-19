@@ -25,7 +25,7 @@ body{
 .inicio li{
     padding: 10px;
     font-size: 15px;
-    color: white;
+    color: black;
     justify-content: space-around;
 }
 
@@ -60,13 +60,12 @@ button{
     font-size: 23px;
     font-weight: 600;
     left: 300px;
-    background-color: #46abbf;
 }
 
 .pessoas{
     position: absolute;
-    left: 800px;
-    top: 100px;
+    left: 900px;
+    top: 250px;
     background-color: #46abbf;
 }
 
@@ -99,4 +98,44 @@ button{
 .omovi button{
     top: 50px;
     left: 500px;
+}
+
+.info_set_a{
+    margin-top: 2000px;
+    align-items: center;
+    background-color: #f5d882;
+    height: 500px;
+    
+}
+
+.info_set_a h2{
+    padding-left: 450px;
+    font-size: 34px;
+}
+
+.info_set_a h1{
+    padding-left: 450px;
+    font-size: 70px;
+    line-height: 10px; 
+    margin-top: -10px;
+}
+
+.text_set_a{
+    color: #46abbf;
+    padding-left: 450px;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-top: 15px;
+    line-height: 27px;
+}
+
+.h3{
+   padding-left: 500px;
+   font-size: 70px;
+   margin-top: -40px;
+}
+
+.acesse{
+    color: black;
 }
