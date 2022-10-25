@@ -1,19 +1,17 @@
-body{
+body {  
     font-family: sans-serif;
     padding: 0;
     margin: 0;
-    }
+}
 
-
-
-.logo img{
+.logo img {
     position: absolute;
     left: 200px;
     top: 15px;
 }
 
 
-.inicio{
+.inicio {
     display: flex;
     left: 400px;
     position: absolute;
@@ -22,14 +20,14 @@ body{
     margin: 10px;
 }
 
-.inicio li{
+.inicio li {
     padding: 10px;
     font-size: 15px;
     color: black;
     justify-content: space-around;
 }
 
-button{
+button {
     position: absolute;
     left: -200px;
     top: -0px;
@@ -41,20 +39,20 @@ button{
     color: white;
 }
 
-.dowload{
+.dowload {
     position: absolute;
     left: 1500px;
     top: 60px;
 }
 
-.titulo h1{
+.titulo h1 {
     position: absolute;
     top: 250px;
     left: 300px;
     font-size: 48px;
 }
 
-.titulo p{
+.titulo p {
     position: absolute;
     top: 600px;
     font-size: 23px;
@@ -62,14 +60,14 @@ button{
     left: 300px;
 }
 
-.pessoas{
+.pessoas {
     position: absolute;
     left: 900px;
     top: 250px;
     background-color: #46abbf;
 }
 
-.video iframe{
+.video iframe {
     position: absolute;
     top: 1000px;
     left: 600px;
@@ -78,7 +76,7 @@ button{
     height: 500px;
 }
 
-.omovi{
+.omovi {
     position: absolute;
     top: 1600px;
     left: 600px;
@@ -95,47 +93,233 @@ button{
     right: 700px;
 }
 
-.omovi button{
+.omovi button {
     top: 50px;
     left: 500px;
 }
 
-.info_set_a{
+.info_set_a {
     margin-top: 2000px;
     align-items: center;
-    background-color: #f5d882;
+    background-color: #FFE385;
     height: 500px;
-    
+
 }
 
-.info_set_a h2{
-    padding-left: 450px;
+.info_set_a h2 {
+    padding-left: 500px;
     font-size: 34px;
+    margin-left: 420px;
+    padding: 30px;
 }
 
-.info_set_a h1{
+.info_set_a h1 {
     padding-left: 450px;
     font-size: 70px;
-    line-height: 10px; 
-    margin-top: -10px;
+    line-height: 10px;
+    margin-top: -50px;
 }
 
-.text_set_a{
+.text_set_a {
     color: #46abbf;
     padding-left: 450px;
     font-size: 17px;
-    margin-top: -20px;
+    margin-top: -10px;
     margin-left: 0px;
-    margin-top: 15px;
+    margin-top: -180px;
     line-height: 27px;
 }
 
-.h3{
-   padding-left: 500px;
-   font-size: 70px;
-   margin-top: -40px;
+.h3 {
+    padding-left: 635px;
+    font-size: 70px;
+    margin-top: -40px;
 }
 
-.acesse{
+.acesse {
     color: black;
+}
+
+.set {
+    padding-left: 1140px;
+    margin-top: -130px;
+}
+
+.ama {
+    padding-left: 1300px;
+    margin-top: -100px;
+}
+
+.j-button-setembro {
+    width: 288px;
+    background: #46abbf;
+    border-radius: 28px;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 16px 0;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.purple {
+    background-color: #4591CC;
+    color: white;
+    height: 500px;
+    margin-top: -30px;
+}
+
+.purple h2 {
+    padding-left: 500px;
+    font-size: 34px;
+    margin-left: 420px;
+    padding: 30px;
+}
+
+.purple h1 {
+    padding-left: 450px;
+    font-size: 70px;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.text_blue {
+    padding-left: 450px;
+    margin-top: -300px;
+    font-size: 20px;
+}
+
+.blue img {
+    padding-left: 1300px;
+    margin-top: -100px;
+}
+
+.btn_purple a {
+    background-color: #aa4a7a;
+    margin-top: 100px;
+}
+
+.jornada {
+    background-color: #8C8ABF;
+    margin-top: -30px;
+    color: white;
+    height: 550px;
+}
+
+.jornada h3 {
+    padding-left: 400px;
+    font-size: 20px;
+    margin-left: 400px;
+    padding: 50px;
+}
+
+.jornada h1 {
+    padding-left: 450px;
+    font-size: 70px;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.text_jornada {
+    padding-left: 450px;
+    margin-top: -100px;
+    font-size: 17px;
+}
+
+.btn_jornada {
+    background-color: #aa4a7a;
+    width: 288px;
+    border-radius: 28px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 16px 0;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    margin-bottom: 50px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.btn_jornada a {
+    color: white;
+    font-size: 20px;
+}
+
+.acolhimento img {
+    margin-left: 1000px;
+    margin-top: -80px;
+}
+
+.purple2{
+    background-color: #46ABBF;
+    margin-top: -20px;
+    height: 500px;
+    color: white;
+}
+
+.purple2 h3{
+    padding-left: 400px;
+    font-size: 20px;
+    margin-left: 400px;
+    padding: 50px;
+}
+
+.purple2 h1{
+    padding-left: 450px;
+    font-size: 70px;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.text_purple{
+    padding-left: 450px;
+    margin-top: -200px;
+    font-size: 17px;
+}
+
+.btn-purple{
+    background-color: #aa4a7a;
+    width: 288px;
+    border-radius: 28px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding: 16px 0;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    margin-bottom: 50px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.btn-purple a{
+    color: white;
+    font-size: 20px;
+}
+
+.not{
+    margin-left: 1200px;
+}
+
+.mental{
+    background-color: #7A75B7;
+    margin-top: -20px;
 }
